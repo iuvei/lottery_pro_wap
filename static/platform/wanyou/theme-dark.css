@@ -1,0 +1,132 @@
+.vux-button-group>a.vux-button-group-current {
+  background-color: black
+}
+
+.vux-tab .vux-tab-item.vux-tab-selected {
+  color: black
+}
+
+.vux-tab-ink-bar {
+  background-color: black
+}
+
+.vux-header {
+  background-color: black
+}
+
+.lottery-game-order-box .btn-bet {
+  background-color: black
+}
+
+
+.lottery-area-open-list .peroid-number-list>li {
+  background-color: black
+}
+
+.lottery-game-order-box .btn-bet {
+  background-color: black
+}
+
+.lottery-area-open-list .peroid-number-list>li {
+  background-color: black
+}
+
+.lottery-game-bottom .lottery-game-multiunit-box>div:first-child {
+  background-color: black
+}
+
+.theme-color {
+  color: black
+}
+
+.range-handle,
+.range-quantity {
+  background-color: black
+}
+
+.lottery-game-bottom .lottery-game-order-box .btn-clear {
+  color: black;
+  border-color: black
+}
+
+.confirm-order-box .confirm-btn-list>div {
+  background-color: black
+}
+
+.confirm-order-box .order-confirm-box button {
+  background-color: black
+}
+
+.confirm-order-box .checked.check-box {
+  border-color: black;
+  background-color: black
+}
+
+.nav-list .active {
+  color: black;
+}
+
+.game-menu-main>.top-menu-list>.game-menu-item-selected {
+  background-color: black
+}
+
+.game-menu-main .sub_menu_box .game-menu-item-selected {
+  border-color: black;
+  color: black;
+}
+
+.game-menu-main .menu-list .game-menu-item-selected {
+  background-color: black;
+  color: white
+}
+
+#app .bet-area-content .bet-selected-item {
+  background-color: black;
+  border-color: black
+}
+
+.btn-selected-item:not(:last-child) {
+  background-color: black
+}
+
+.check-box-list .checked .check-box {
+  border-color: black;
+  color: black
+}
+
+.my-bankcard-container .add-bankcard-btn {
+  background-color: black;
+}
+
+.tip-box .tip-btns .noOperate {
+  color: black;
+  border: 1px solid black;
+}
+
+.tip-box .tip-btns .goToSetting {
+  background-color: black;
+}
+
+.bankcard-manage-btn .add-bankcard-btn {
+  background-color: black;
+}
+
+.bankcard-detail-btn .Unbind {
+  background-color: black;
+}
+
+.add-bank-card-btn .confirm-btn {
+  background-color: black;
+}
+
+.mod-login-pwd-btn .confirm-btn {
+  background-color: black;
+}
+
+.mod-pwd-child p {
+  margin: 0;
+}
+
+.mod-withdraw-pwd-container .confirm-mod-btn {
+  background-color: black;
+}

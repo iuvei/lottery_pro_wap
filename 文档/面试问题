@@ -1,0 +1,62 @@
+做一个简短的自我介绍。
+
+1.基础js,css3,html5
+  es6 async await,展开运算符,箭头函数,类和继承
+  css flex,calc属性
+  html5  canvas和websocket
+
+2.vue
+  vue-router
+  
+
+3.组件设计概念
+  vuex 组件状态共享 父子组件通信
+  vue定义全局component 
+  mixins 
+  高复用，低耦合，可拓展性，可维护性
+  ui框架的弊端和优势
+  vue框架的优缺点
+
+3.工具
+webpack，脚手架,eslint, git
+
+4.具体问题
+
+
+5.为什么从上一家公司离职，你期望新公司能够给你带来什么？或者说你比较看重公司的那些东西
+福利待遇，同事相处，和技术成长。
+
+获取知识的途径和个人的技术发展方向，对哪个方向比较感兴趣。
+
+6.有没有其他的问题。
+
+
+
+写过react高阶组件没有？
+
+参与过github开源项目或者有github账号没？
+
+ant.design
+form表单
+
+es6的新特性。
+
+
+webpack有了解过没有？
+
+原生js
+闭包，原型链
+
+redux和vuex的核心概念
+
+node.js和express玩过没有
+
+react和vue区别
+
+对react生命周期和vue生命周期的理解
+
+视图，数据和控制器
+
+一般怎么解决项目中遇到的问题
+
+以后技术的发展方向和期望

@@ -1,0 +1,650 @@
+ul,
+li {
+  list-style: none
+}
+
+body {
+  background-color: #f9fafe
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,textarea{
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  caret-color: #2d7eea;
+}
+
+button{
+  outline: none
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+  font-size: 14px;
+}
+
+.login-container ::-webkit-input-placeholder {
+  line-height: 50px
+}
+
+.tr {
+  text-align: right;
+}
+
+.tc{
+  text-align: center;
+}
+
+.vm{
+  vertical-align: middle;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.x-padding12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.lh30 {
+  line-height: 30px;
+}
+
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.helvetica {
+  font-family: helvetica
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs14 {
+  font-size: 14px
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs17{
+  font-size: 17px
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.iconfont {
+  font-size: 14px;
+}
+
+.transform180 {
+  transform: rotate(180deg);
+}
+
+.black-level3 {
+  color: #333
+}
+
+.black-level5 {
+  color: #555
+}
+
+.black-level6 {
+  color: #666
+}
+
+.black-level9 {
+  color: #999
+}
+
+.theme-color {
+  color: #f10215
+}
+
+.white-bg{
+  background-color: white
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600
+}
+
+.dib {
+	display: inline-block;
+}
+
+.df {
+  display: flex;
+}
+
+.transition2 {
+  transition: all ease-in .2s
+}
+
+.rotate180 {
+  transform: rotate(180deg)
+}
+
+.bg-gray {
+  background-color: #f9fafe
+}
+
+
+.mask-layer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 13;
+  background-color: rgba(0, 0, 0, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title .icon-htmal5icon031 {
+  font-size: 25px
+}
+
+.vux-header-title-area,
+.vux-header .vux-header-title {
+  height: 44px;
+  line-height: 44px;
+}
+
+.vux-header {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 12;
+  top: 0
+}
+
+.vux-header-title-area,
+.vux-header .vux-header-title {
+  margin: auto
+}
+
+.range-min,
+.range-max {
+  display: none;
+}
+
+.vux-range-input-box {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.range-handle {
+  width: 22px;
+  height: 22px;
+  top: -9px !important;
+  box-shadow: 0 1px 2px #fd6a6a
+}
+
+.weui-toast.weui-toast_forbidden,
+.weui-toast.weui-toast_success {
+  width: 60% !important
+}
+
+.weui-dialog__ft>a:first-child {
+  order: 2
+}
+
+.weui-dialog__ft>a:last-child {
+  order: 1
+}
+
+.vux-number-selector {
+  height: 30px;
+  line-height: 30px;
+}
+
+.vux-number-selector+.vux-number-input {
+  height: 30px;
+}
+
+.vux-number-selector svg {
+  fill: black
+}
+
+.vux-number-selector.vux-number-selector-sub,
+.vux-number-selector.vux-number-selector-plus {
+  background-color: #f9fafe
+}
+
+
+.vux-button-group>a.vux-button-tab-item-first,
+.vux-button-group>a.vux-button-tab-item-last {
+  border-radius: 0px;
+  line-height: 36px;
+  height: 36px;
+  font-weight: 500;
+}
+
+.vux-button-group>a.vux-button-tab-item-first:after,
+.vux-button-group>a.vux-button-tab-item-last:after {
+  border: none;
+}
+
+.order-filter .weui-cell_access .weui-cell__ft:after{
+  transform: rotate(135deg);
+  margin-left: 10px;
+  right: 0;
+  margin-top: -6px;
+}
+
+.add-bank-container .weui-cell__ft {
+  transform: rotate(90deg);
+  margin-right: 12px;
+}
+
+.add-bank-container .weui-cell_access .weui-cell__ft:after {
+  width: 10px;
+  height: 10px;
+}
+
+.vux-popup-header{
+  background-color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+.dp-header{
+  background-image: none;
+  border-bottom: 0.5px solid #e2e4ef;
+}
+
+.vux-popup-header-right,.dp-header .dp-item.dp-right{
+  color: #f10215
+}
+
+.dp-header .dp-item{
+  height: 50px;
+  line-height: 50px;
+}
+
+.vux-popup-header-left{
+  color: #333
+}
+.add-bank-container .weui-icon-clear {
+  font-size: 18px;
+}
+
+.weui_icon_clear {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.vux-header .vux-header-left .left-arrow {
+  left: -10px;
+  top: -7px
+}
+
+.vux-header .vux-header-left .left-arrow:before {
+  border-width: 2px 0 0 2px;
+  border-color: white
+}
+
+.vux-header .vux-header-left a,
+.vux-header .vux-header-left button,
+.vux-header .vux-header-right a,
+.vux-header .vux-header-right button {
+  color: white
+}
+
+.vux-header .vux-header-right{
+  right:12px
+}
+
+.vux-popup-dialog{
+  background:white
+}
+
+.scroller-indicator{
+  border-top: solid 0.5px #e2e4ef;
+  border-bottom: solid 0.5px #e2e4ef;
+  background-image: none;
+}
+
+.vux-1px-b:after{
+  border-bottom-width: 0.5px
+}
+
+
+
+.scroller-item-selected{
+  font-size: 17px;
+  font-weight: 500;
+  color: #333
+}
+
+.bet-order-detail .weui-cells{
+  margin-top: 0!important;
+}
+
+.weui-cells{
+  font-size: 14px
+}
+
+.weui-cells .vux-label{
+  color: #666;
+}
+
+
+.bet-order-detail .weui-cells .weui-cell__ft{
+  color: black
+}
+
+.weui-cells_radio .weui-check:checked+.weui-icon-checked:before {
+  color: #da1d1d
+}
+
+.weui-cells:after,.weui-cells:before{
+  height:0;
+  border: none
+}
+
+.weui-cell:before,.vux-cell-box:not(:first-child):before{
+  border-top: solid 0.5px #e2e4ef
+}
+
+
+
+.vux-header {
+  position: fixed;
+}
+
+.weui-toast.weui-toast_forbidden,
+.weui-toast_forbidden .weui-icon_toast.weui-icon-success-no-circle:before {
+  color: white
+}
+
+.tab-box {
+  font-weight: 500;
+  font-size: 17px
+}
+
+ .vux-tab-ink-bar {
+  transform: scaleY(0.5)
+}
+
+.vux-tab .vux-tab-item {
+  color: #333;
+  font-size: 17px
+}
+
+.vux-header-title-area,
+.vux-header .vux-header-title {
+  font-weight: 500
+}
+
+.vux-confirm .weui-dialog {
+  border-radius: 9px
+}
+
+.confirm-order-box .weui-dialog__btn_primary {
+  color: #353535
+}
+
+.confirm-order-box .weui-dialog__btn_default {
+  color: #f10215
+}
+
+.weui-mask {
+  background: rgba(0, 0, 0, 0.7)
+}
+
+.weui-toast {
+	background: #1a1b2e;
+	opacity: 0.9;
+}
+
+.weui-toast__content {
+	padding: 10px 40px!important;
+}
+
+.dp-container,
+.vux-popup-dialog{
+  border-radius: 10px 10px 0 0
+}
+
+.order-option-detail .range-bar{
+  background-color: #e2e4ef
+}
+
+.confirm-order-box .weui-dialog__btn_primary {
+  border-right: solid 0.5px #e2e4ef
+}
+
+.tab-box .vux-tab .vux-tab-item {
+  background: transparent
+}
+
+.vux-tab-ink-bar {
+  height: 4px !important;
+}
+
+.tab-box .vux-tab-bar-inner {
+  border-radius: 4px
+}
+
+.recharage-centre-container .weui-cells__title {
+  margin: 1.0em 0 1.0em 0;
+  color: #666;
+  font-weight: 600;
+}
+
+.recharage-centre-container .weui-cell__ft.vux-cell-align-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weChatPay-container .weui-cells__title {
+  margin: 1.0em 0 1.0em 0;
+  color: #252525;
+}
+
+.weChatPay-container .weui-cell__ft {
+  text-align: center;
+}
+
+.weChatPay-container .vux-cell-value {
+  border: 1px solid #e2e4ef;
+  padding: 0.3em 1em 0.3em 1em;
+}
+
+.quickPay-container .weui-cell {
+  padding: 0;
+}
+
+.quickPay-container .weui-cell_access .weui-cell__ft:after {
+  height: 8px;
+  width: 8px;
+  right: 12px;
+  transform: rotate(135deg);
+}
+
+
+.vux-spinner,
+.vux-spinner svg {
+  width: 48px;
+  height: 48px;
+}
+
+.vux-spinner {
+  fill: #a0a7b7
+}
+
+.vux-slider > .vux-swiper > .vux-swiper-item{
+  overflow-y: auto;
+}
+
+.users-name .iconfont {
+	font-size: 22px;
+}
+
+.weui-icon-success {
+	font-size:18px;
+	color:#fa2939;
+}
+
+.order-clear-confirm .weui-dialog__bd:first-child {
+	padding-top: 37px;
+}
+.order-clear-confirm .weui-dialog__ft {
+  width: 90%;
+  margin: 0px auto 27px auto;
+}
+.order-clear-confirm .weui-dialog__ft:after {
+	border-top: none;
+}
+.order-clear-confirm .weui-dialog__ft a {
+	width: 122px!important;
+	height: 39px;
+  border: 1px solid #e2e4ef;
+  border-radius: 40px;
+  line-height: 40px;
+}
+.order-clear-confirm .weui-dialog__ft a:first-child {
+  background-color: #fa2939;
+  color: #fff;
+  margin-left: 20px;
+}
+.order-clear-confirm .weui-dialog__ft a:nth-child(2) {
+  color: #fa2939;
+  border: 1px solid #fa2939;
+}
+
+
+.red-color {
+	color:#fa2939!important;
+}
+
+.white-bg .weui-label {
+	font-size: 14px!important;
+}
+.setWithdrawPass .weui-cell {
+	padding: 8px 15px;
+}
+
+/* pk10 */
+.peroid-number-list.pk10 > li > div {
+  border-radius: 3px;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-01 > div {
+  background-color: #e6de01;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-02 > div {
+  background-color: #0092dd;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-03 > div {
+  background-color: #4b4b4b;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-04 > div {
+  background-color: #ff7602;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-05 > div {
+  background-color: #17e2e5;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-06 > div {
+  background-color: #5235ff;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-07 > div {
+  background-color: #bfbfbf;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-08 > div {
+  background-color: #ff2600;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-09 > div {
+  background-color: #780a00;
+}
+.peroid-number-list.pk10 > li.peroid-number-item-10 > div {
+  background-color: #0cbf02;
+}
+
+/* 六合彩 */
+.peroid-number-list.six >li.blueNum>div{
+  background-color: #0596ea
+}
+
+.peroid-number-list.six >li.greenNum>div{
+  background-color: #1ec36c
+}
+
+/* 快三 */
+
+.peroid-number-list.k3 >li.peroid-number-item-1 >div{
+  background-image: url('../../static/images/icon/dice-1@3x.png')
+}
+.peroid-number-list.k3 >li.peroid-number-item-2 >div{
+  background-image: url('../../static/images/icon/dice-2@3x.png')
+}
+.peroid-number-list.k3 >li.peroid-number-item-3 >div{
+  background-image: url('../../static/images/icon/dice-3@3x.png')
+}
+.peroid-number-list.k3 >li.peroid-number-item-4 >div{
+  background-image: url('../../static/images/icon/dice-4@3x.png')
+}
+.peroid-number-list.k3 >li.peroid-number-item-5 >div{
+  background-image: url('../../static/images/icon/dice-5@3x.png')
+}
+.peroid-number-list.k3 >li.peroid-number-item-6 >div{
+  background-image: url('../../static/images/icon/dice-6@3x.png')
+}
+.peroid-number-list.k3 >li>div{
+  border-radius: 0;
+  background-size: 100% 100%;
+  background-color: transparent!important
+}
+
+/* 重庆幸运农场 */
+.peroid-number-list.xync >li.peroid-number-item-19 >div{
+  background-color: white;
+  color:#f10215;
+  border: solid thin #f10215;
+}
+.peroid-number-list.xync >li.peroid-number-item-20 >div{
+  background-color: white;
+  color:#f10215;
+  border: solid thin #f10215
+}
+
+

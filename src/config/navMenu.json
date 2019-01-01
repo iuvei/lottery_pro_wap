@@ -1,0 +1,21 @@
+[{
+  "name": "首页",
+  "icon": "home-icon@3x.png",
+  "activeIcon": "home-active-icon@3x.png",
+  "path": "home"
+}, {
+  "name": "购彩",
+  "icon": "lottery-hall-icon@3x.png",
+  "activeIcon": "lottery-hall-active-icon@3x.png",
+  "path": "lotteryHall"
+}, {
+  "name": "开奖",
+  "icon": "lottery-history-icon@3x.png",
+  "activeIcon": "lottery-history-active-icon@3x.png",
+  "path": "lotteryHistory"
+},  {
+  "name": "我",
+  "icon": "my-icon@3x.png",
+  "activeIcon": "my-active-icon@3x.png",
+  "path": "my"
+}]

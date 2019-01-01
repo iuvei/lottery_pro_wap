@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "icon": "fund-record-icon@3x.png",
+      "title": "资金记录",
+      "path": "/money/history"
+    },
+    {
+      "icon": "account-new-icon@3x.png",
+      "title": "代理中心",
+      "path": "/user/agent/0"
+    },
+    {
+      "icon": "account-icon@3x.png",
+      "title": "个人信息",
+      "path": "/user/info"
+    },
+    {
+      "icon": "password-icon@3x.png",
+      "title": "密码设置",
+      "path": "/user/modifyPwd"
+    },
+    {
+      "icon": "message-icon@3x.png",
+      "title": "站内信",
+      "path": "/user/message/list"
+    },
+    {
+      "icon": "notice-icon@3x.png",
+      "title": "公告",
+      "path": "/user/announcement",
+      "alias": "notification"
+    },
+    {
+      "icon": "consult-icon@3x.png",
+      "title": "联系我们",
+      "path": "/user/kefu"
+    }
+  ]
+}

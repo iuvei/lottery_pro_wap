@@ -1,0 +1,56 @@
+{
+  "alipay": {
+    "icon": "alipay@3x.png",
+    "name": "支付宝在线充值",
+    "paybg": "alipay-logo@3x.png",
+    "type": "online"
+  },
+  "wechat": {
+    "icon": "weChat@3x.png",
+    "name": "微信在线充值",
+    "paybg": "wechatpay-logo@3x.png",
+    "type": "online"
+  },
+  "qq": {
+    "icon": "qqtransfer@3x.png",
+    "name": "qq在线充值",
+    "paybg": "",
+    "type": "online"
+  },
+  "quickpay": {
+    "icon": "quickpay@3x.png",
+    "name": "快捷支付",
+    "paybg": "quickpay-logo@3x.png",
+    "type": "online"
+  },
+  "jdpay": {
+    "icon": "jd-pay@3x.png",
+    "name": "京东在线充值",
+    "paybg": "jdpay-logo@3x.png",
+    "type": "online"
+  },
+  "offline_alipay": {
+    "icon": "alipay@3x.png",
+    "name": "支付宝线下充值",
+    "paybg": "",
+    "type": "offline"
+  },
+  "offline_wechat": {
+    "icon": "weChat@3x.png",
+    "name": "微信转账",
+    "paybg": "",
+    "type": "offline"
+  },
+  "offline_qq": {
+    "icon": "qqtransfer@3x.png",
+    "name": "qq转账",
+    "paybg": "",
+    "type": "offline"
+  },
+  "bankcard": {
+    "icon": "bank-card-pay@3x.png",
+    "name": "银行卡转账",
+    "paybg": "",
+    "type": "offline"
+  }
+}

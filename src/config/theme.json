@@ -1,0 +1,13 @@
+[{
+    "name": "默认主题",
+    "src": "theme-red"
+  },
+  {
+    "name": "黑色主题",
+    "src": "theme-dark"
+  },
+  {
+    "name": "蓝色主题",
+    "src": "theme-blue"
+  }
+]

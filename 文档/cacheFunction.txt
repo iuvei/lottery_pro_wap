@@ -1,0 +1,25 @@
+首先获取数据
+1.从store中拿到数据
+  直接返回该数据
+
+2.store中没有数据
+  需要请求该接口的数据，
+  经过状态码筛选之后
+  返回该数据
+
+  一个函数
+    先判断store中有没有数据，如果有的话，直接返回
+  
+  如果没有的话，获取该数据，经过状态过滤然后再返回
+
+
+function someFunction({state,somedata,fetchData,params}){
+  let returnData;
+  if(state[somedata]){
+    returnData = state[somedata]
+  }else{
+    filterHttpStatusCode(await fetchData(params));
+    comit()
+  }
+  return returnData;
+}  

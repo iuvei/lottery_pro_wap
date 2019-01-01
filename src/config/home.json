@@ -1,0 +1,32 @@
+{
+  "optionListData": [
+    {
+      "icon": "../../static/images/home-blue/recharge-icon@3x.png",
+      "name": "充值",
+      "path": "/bank/rechargeCentre",
+      "requireLogin": true
+    },
+    {
+      "icon": "../../static/images/home-blue/withdraw-icon@3x.png",
+      "name": "提现",
+      "path": "/bank/withdraw",
+      "requireLogin": true
+    },
+    {
+      "icon": "../../static/images/home-blue/bet-record-icon@3x.png",
+      "name": "投注记录",
+      "path": "/order/history?type=0",
+      "requireLogin": true
+    },
+    {
+      "icon": "../../static/images/home-blue/gift-icon@3x.png",
+      "name": "优惠",
+      "path": "/activity/list"
+    },
+    {
+      "icon": "../../static/images/home-blue/consult-icon@3x.png",
+			"name": "客服",
+			"path": "/user/kefu"
+    }
+  ]
+}

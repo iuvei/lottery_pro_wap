@@ -1,0 +1,15 @@
+.vux-header{
+  background-color: red
+}
+
+.vux-header .vux-header-left .left-arrow:before {
+  border-width: 2px 0 0 2px;
+  border-color: white
+}
+
+.vux-header .vux-header-left a,
+.vux-header .vux-header-left button,
+.vux-header .vux-header-right a,
+.vux-header .vux-header-right button {
+  color: white
+}

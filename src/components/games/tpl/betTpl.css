@@ -1,0 +1,235 @@
+.bet-area {
+  padding: 10px 10px 60px 10px;
+}
+
+.bet-area-textarea {
+  width: 100%;
+  height: 250px;
+  border: solid 0.5px #e2e4ef;
+  border-radius: 6px;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  resize: none;
+  line-height: 20px;
+  background-color: white
+}
+
+.bet-area-list>li {
+  display: flex;
+}
+
+.bet-area-list>li:not(:first-child) {
+  margin-top: 14px;
+}
+
+.bet-area-list .bet-area-title {
+  position: relative;
+  top: 0px;
+  font-weight: 600;
+  color: #454545;
+  height: 30px;
+  line-height: 34px;
+  width: 50px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.bet-area-list .bet-area-title.bet-area-vs-title {
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.bet-area-content {
+  flex: 1;
+  color: #555;
+}
+
+.btn-select-list {
+  display: flex;
+  border: solid 0.5px #e2e4ef;
+  border-radius: 3px;
+  margin: 0 2px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: white;
+  color: #999;
+}
+
+.btn-select-list>li {
+  flex: 1;
+  text-align: center;
+  border-right: solid 0.5px #e2e4ef;
+  line-height: 30px;
+}
+
+.btn-select-list>li:last-child {
+  border: none;
+}
+
+.select-round-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: helvetica;
+}
+
+.select-round-list>li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.select-round-list>li:not(:nth-child(5n)) {
+  width: calc(25% - 10px);
+}
+
+.select-round-list>li:nth-child(5n) {
+  width: 40px;
+}
+
+.select-round-list>li>div {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+  border: solid 0.5px #e2e4ef;
+  font-size: 18px;
+  transition: all ease-in 0.2s;
+  box-shadow: 0px 2px 2px #e8eaf2bd;
+}
+
+.bet-area-content .bet-selected-item {
+  color: white;
+}
+
+#app .bet-area-content .bet-selected-item.blueNum{
+  background: #0596ea
+}
+#app .bet-area-content .bet-selected-item.greenNum{
+  background: #1ec36c
+}
+
+.btn-selected-item:not(:last-child) {
+  color: white;
+}
+
+/* 龙虎样式 */
+.select-dragonTiger-list>li {
+  display: flex;
+  margin-bottom: 10px;
+  line-height: 35px;
+}
+
+.select-dragonTiger-list>li>div:not(:nth-child(2)) {
+  flex: 1;
+  background-color: white
+}
+
+.select-dragonTiger-list>li>div:nth-child(2) {
+  width: 50px;
+  text-align: center;
+}
+
+.select-dragonTiger-list>li>div:not(:nth-child(2)) {
+  border: solid 0.5px #e2e4ef;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.select-dragonTiger-list>li>div.active {
+  color: white;
+}
+
+.select-rect-list {
+  display: flex;
+}
+
+.select-rect-list>li {
+  flex: 1;
+}
+
+.rect-odds-list {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: helvetica;
+  justify-content: space-between
+}
+
+.rect-odds-list>li {
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: border linear .2s,color linear .2s;
+  overflow: hidden;
+}
+
+.rect-odds-list>li:not(.rect-odds-item-selected) {
+  border: solid 0.8px #e2e4ef;
+}
+
+.rect-odds-list-5 li {
+  width: calc(20% - 7px);
+}
+
+.rect-odds-list-4 li {
+  width: calc(25% - 7px)
+}
+
+.rect-odds-list-3 li {
+  width: calc(33.3% - 7px)
+}
+
+.rect-odds-list-2 li {
+  width: calc(50% - 7px)
+}
+
+.select-rect-list>li>div {
+  border: solid 0.5px #e2e4ef;
+  display: inline-block;
+  padding: 5px;
+	border-radius: 5px;
+	background: #fff;
+	transition: all ease-in 0.2s;
+	box-shadow: 0px 2px 2px #e8eaf2bd;
+}
+
+.rect-odds-item {
+  border-radius: 3px
+}
+
+.rect-odds-item>div:first-child {
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.rect-odds-item>div:last-child {
+  line-height: 20px;
+  font-size: 14px;
+  color: #c5c7d6
+}
+.rect-odds-list li.rect-odds-item-one-fifth{
+  width: calc(20% - 7px)
+}
+.rect-odds-list li.rect-odds-item-one-quarter{
+  width: calc(25% - 7px)
+}
+.rect-odds-list li.rect-odds-item-one-third{
+  width: calc(33.3% - 7px)
+}
+.bet-area-list li.empty-cell{
+  visibility: hidden
+}
+

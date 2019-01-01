@@ -1,0 +1,159 @@
+{
+  "ssc": {
+    "name": "时时彩",
+    "num": 5,
+    "min": 0,
+    "max": 9,
+    "repeat": true,
+    "includes": [
+      {
+        "name": "重庆时时彩",
+        "code": "cqssc",
+        "icon": "cqssc-icon@3x.png"
+      },
+      {
+        "name": "天津时时彩",
+        "code": "tjssc",
+        "icon": "tjssc-icon@3x.png"
+      }
+    ]
+  },
+  "pk10": {
+    "name": "PK10",
+    "num": 10,
+    "min": 1,
+    "max": 10,
+    "repeat": false,
+    "addZero": true,
+    "includes": [
+      {
+        "name": "北京赛车",
+        "code": "bjpk10",
+        "icon": "bjpk10-icon@3x.png"
+      }
+    ]
+  },
+  "syxw": {
+    "name": "11选5",
+    "num": 5,
+    "min": 1,
+    "max": 11,
+    "repeat": false,
+    "addZero": true,
+    "includes": [
+      {
+        "name": "广东11选5",
+        "code": "gdsyxw",
+        "icon": "gd11x5-icon@3x.png"
+      },
+      {
+        "name": "重庆11选5",
+        "code": "cqsyxw",
+        "icon": "gd11x5-icon@3x.png"
+      }
+    ]
+  },
+  "xync": {
+    "name": "快乐十分",
+    "num": 8,
+    "min": 1,
+    "max": 20,
+    "repeat": false,
+    "addZero": true,
+    "includes": [
+      {
+        "name": "重庆幸运农场",
+        "code": "cqxync",
+        "icon": "xync-icon@3x.png"
+      },
+      {
+        "name": "广东快乐十分",
+        "code": "gdklsf",
+        "icon": "xync-icon@3x.png"
+      }
+    ]
+  },
+  "kl8": {
+    "name": "快乐8",
+    "num": 20,
+    "min": 1,
+    "max": 80,
+    "repeat": false,
+    "addZero": true,
+    "includes": [
+      {
+        "name": "北京快乐8",
+        "code": "bjkl8",
+        "icon": "bjkl8-icon@3x.png"
+      }
+    ]
+  },
+  "3d": {
+    "name": "3d",
+    "num": 3,
+    "min": 0,
+    "max": 9,
+    "repeat": true,
+    "includes": [
+      {
+        "name": "福彩3d",
+        "code": "fc3d",
+        "icon": "3d-icon@3x.png"
+      }
+    ]
+  },
+  "k3": {
+    "name": "快三",
+    "num": 3,
+    "min": 1,
+    "max": 6,
+    "repeat": true,
+    "includes": [
+      {
+        "name": "江苏快三",
+        "code": "jsk3",
+        "icon": "hbk3-icon@3x.png"
+      },
+      {
+        "name": "吉林快三",
+        "code": "jlk3",
+        "icon": "hbk3-icon@3x.png"
+      }
+    ]
+  },
+  "six": {
+    "name": "六合彩",
+    "num": 7,
+    "min": 1,
+    "max": 49,
+    "repeat": false,
+    "addZero": true,
+    "includes": [
+      {
+        "name": "香港六合彩",
+        "code": "hksix",
+        "icon": "lhc-icon@3x.png"
+      },
+      {
+        "name": "极速六合彩",
+        "code": "jssix",
+        "icon": "lhc-icon@3x.png"
+      }
+    ]
+  },
+  "lucky28": {
+    "name": "幸运28",
+    "num": 3,
+    "min": 0,
+    "max": 9,
+    "repeat": true,
+    "addZero": false,
+    "includes": [
+      {
+        "name": "PC蛋蛋",
+        "code": "pcdd",
+        "icon": ""
+      }
+    ]
+  }
+}

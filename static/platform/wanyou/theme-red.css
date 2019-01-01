@@ -1,0 +1,376 @@
+.vux-button-group>a.vux-button-group-current {
+  background: #fa2939;
+}
+
+.vux-tab .vux-tab-item.vux-tab-selected {
+  color: #f10215;
+}
+
+.vux-tab-ink-bar {
+  background-color: #f10215;
+}
+
+.vux-header {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+
+
+.lottery-game-order-box .btn-bet {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+.lottery-game-order-box .btn-bet {
+  background-color: #f10215;
+}
+
+.lottery-area-open-list .peroid-number-list>li>div {
+  background-color: #f10215;
+}
+
+.lottery-game-bottom .lottery-game-multiunit-box>div:first-child {
+  background-color: #f10215;
+}
+
+.theme-color {
+  color: #f10215;
+}
+
+.range-handle,
+.range-quantity {
+  background-color: #fa2939;
+}
+
+.range-handle {
+  background-color: #f10215;
+}
+
+.range-quantity {
+  padding-right: 2px;
+}
+
+.lottery-game-bottom .lottery-game-order-box .btn-clear {
+  color: #f10215;
+  border-color: #f10215;
+}
+
+.confirm-order-box .confirm-btn-list>div,
+.confirm-order-box .confirm-btn-list>button:not([disabled])
+{
+  background-color: #fa2939;
+}
+
+.confirm-order-box .order-confirm-box button {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+.confirm-order-box .checked.check-box {
+  border-color: #fa2939;
+  background-color: #fa2939;
+}
+
+.checked .check-box {
+  border-color: #f10215;
+}
+
+.nav-list .active {
+  color: #f10215;
+}
+
+.game-menu-main>.top-menu-list>.game-menu-item-selected {
+  background-color: #fa2939;
+}
+
+.game-menu-main .sub_menu_box .game-menu-item-selected {
+  border-color: #fa2939;
+  color: #fa2939;
+}
+
+#app .bet-area-content .bet-selected-item {
+  background: linear-gradient(to right, #f64554, #fc6470);
+  box-shadow: 0px 2px 2px #fe3c4c75;
+  border-color: transparent;
+}
+
+.btn-selected-item:not(:last-child) {
+  background-color: #fa2939;
+}
+
+.check-box-list .checked .check-box {
+  background-color: #fa2939;
+  color: #f9fafe;
+  border-color: #fa2939;
+  font-weight: 600;
+}
+
+.lottery-game-main-random .btn {
+  background-color: white;
+  border: solid 0.8px #fa2939;
+  color: #fa2939;
+  font-weight: bold;
+}
+
+.play-tab-list .vux-button-group {
+  border: solid 0.5px #f10215;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.play-tab-list .vux-button-group>a:not(.vux-button-group-current) {
+  background-color: transparent;
+  color: #fa2939;
+}
+
+.game-menu-main>.second_menu_list>.game-menu-item-selected
+{
+  color: #fa2939;
+  border: solid 0.5px #fa2939;
+}
+
+.playmode-list>li.active {
+  background-color: #fa2939;
+  color: white;
+  border-color: #fa2939;
+  font-weight: 500;
+}
+
+.weui-dialog__btn_primary {
+  color: #fa2939;
+}
+
+.tab-box .vux-tab-bar-inner {
+  background-color: #f64554;
+}
+
+.rect-odds-list .rect-odds-item-selected {
+  border: solid 0.5px #fa2939;
+  color: #f10215;
+}
+
+.rect-odds-list .rect-odds-item-selected>div:first-child {
+  background: linear-gradient(to right, #f64554, #fc6470);
+  color: white;
+}
+
+.rect-odds-list .rect-odds-item-selected>div:last-child{
+  color: #fa2939
+}
+
+.tip-btns .noOperate {
+  color: red;
+  border: 1px solid red;
+}
+
+.tip-box .tip-btns .goToSetting {
+  background-color: red;
+}
+
+.bankcard-manage-btn .add-bankcard-btn {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+.my-bank-btn .add-bankcard-btn {
+  background-color: red;
+}
+
+.bankcard-detail-btn .Unbind {
+  background-color: red;
+}
+
+.add-bank-card-btn .confirm-btn {
+  background-color: red;
+}
+
+.mod-login-pwd-btn .confirm-btn {
+  background-color: red;
+}
+
+.mod-pwd-child p {
+  margin: 0;
+}
+
+.mod-withdraw-pwd-container .confirm-mod-btn {
+  background-color: red;
+}
+
+.recharge-channel-list li.recharge-channel-item-active {
+  background-color: #fa2939;
+  color: white;
+  border-color: #fa2939;
+}
+
+.recharge-main .btn-copy {
+  border: solid 0.8px #fa2939;
+  color: #fa2939
+}
+
+.bound-header{
+  background-color: #fa2939
+}
+
+button.btn-confirm{
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+  border: none;
+  width: 240px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  margin-left: -120px;
+}
+button.btn-confirm[disabled]{
+  background: #e2e4ef
+}
+
+/*新增*/
+
+.text-theme {
+  color: #fa2939 !important;
+}
+
+.border-theme {
+  border: 1px solid #fa2939 !important;
+}
+
+.team-tab-active {
+  background-color: #fa2939 !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+}
+
+.bg-theme {
+  background-color: #fa2939 !important;
+}
+
+
+/* 新增  啦啦啦 */
+.home-top {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+.lottery-entry-box .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fa2939;
+}
+
+.btn.btn-random1,
+.game-intro-text {
+  color: #fa2939;
+}
+
+.icon-summary-area .point {
+  background-color: #f10215;
+}
+
+.user-top {
+  background-image: url('../../../static/images/icon/user-center-top-bg@3x.png');
+}
+
+
+.vux-popup-header-right, .dp-header .dp-item.dp-right {
+	color: #fa2939;
+}
+
+.modify-btn {
+  background: linear-gradient(to right, #f10215, #ff3d4c);
+}
+
+.tab-list > li.active {
+  background-color: #fa2939;
+}
+
+.tab-list > li:nth-child(2) {
+  border-left: solid 0.5px #fa2939;
+  border-right: solid 0.5px #fa2939;
+}
+
+.tab-list {
+  border: solid 0.5px #f10211;
+  color: #fa2939;
+}
+
+.tab-list > li:last-child svg {
+	fill: #fa2939;
+}
+
+.contracts-wrapper .contracts-title .add-contracts-btn {
+  color: #fa2939;
+}
+
+.account-switcher > div.switch-active {
+  background-color: #fa2939;
+}
+
+.account-switcher {
+  border: solid 0.8px #f10215;
+  color: #f10215;
+}
+
+.tab-box > .active {
+  background-color: #fa2939;
+}
+
+.promotion-top .tab-box {
+  border: solid 0.8px #f10211;
+  color: #fa2939;
+}
+
+.copy-btn {
+  color: #fa2939;
+  border: solid 0.8px #fa2939;
+}
+
+.red-block {
+  box-shadow: 0 2px 6px #ff8a9a;
+}
+
+.linkToGroup {
+  color: #fa2939;
+}
+
+.linkToGroup a {
+  color: #fa2939;
+}
+
+.agree span {
+  color: #fa2939;
+}
+
+.register-box .checked.check-box {
+  background: #fa2939;
+}
+
+.try-play-btn {
+  color: #f10215;
+}
+
+.sub-tab-list .sub-tab-selected {
+  background-color: #fa2939;
+}
+
+.btn-more {
+  border: solid 0.8px red;
+  color: #f10215;
+}
+
+.game-list > li.active {
+  color: #fc3c4c;
+}
+
+.game-type-list > li.active:after {
+  background-color: #f10215;
+}
+
+.money-list > li.active {
+  background-color: #fa2939;
+}
+
+.check-item-selected {
+	background-color: #fa2939!important;
+	border: 1px solid #fa2939;
+}
+
+

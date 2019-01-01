@@ -1,0 +1,382 @@
+.vux-button-group>a.vux-button-group-current {
+  background: #fa2939;
+}
+
+.vux-tab .vux-tab-item.vux-tab-selected {
+  color: #32b2fb;
+}
+
+.vux-tab-ink-bar {
+  background-color: #f10215;
+}
+
+.vux-header {
+  background: linear-gradient(to right, #029feb, #00bef3);
+}
+
+
+
+.lottery-game-order-box .btn-bet {
+  background: linear-gradient(to right, #029feb, #00bef3);
+}
+
+.lottery-game-order-box .btn-bet {
+  background-color: #f10215;
+}
+
+.lottery-area-open-list .peroid-number-list>li>div {
+  background-color: #f10215;
+}
+
+.lottery-game-bottom .lottery-game-multiunit-box>div:first-child {
+  background-color: #f10215;
+}
+
+.theme-color {
+  color: #4e90f9;
+}
+
+.range-handle,
+.range-quantity {
+  background-color: #32b2fb;
+}
+
+.range-handle {
+	background-color: #32b2fb;
+	box-shadow: 0 1px 2px #32b2fb;
+}
+
+.range-quantity {
+  padding-right: 2px;
+}
+
+.lottery-game-bottom .lottery-game-order-box .btn-clear {
+  color: #f10215;
+  border-color: #f10215;
+}
+
+.confirm-order-box .confirm-btn-list>div,
+.confirm-order-box .confirm-btn-list>button:not([disabled])
+{
+  background-color: #32b2fb;
+}
+
+.confirm-order-box .order-confirm-box button {
+  background: linear-gradient(to right, #029feb, #00bef3);
+}
+
+.confirm-order-box .checked.check-box {
+  border-color: #32b2fb;
+  background-color: #32b2fb;
+}
+
+.checked .check-box {
+  border-color: #f10215;
+}
+
+.nav-list .active {
+  color: #32b2fb;
+}
+
+.game-menu-main>.top-menu-list>.game-menu-item-selected {
+  background-color: #32b2fb;
+}
+
+.game-menu-main .sub_menu_box .game-menu-item-selected {
+  border-color: #32b2fb;
+  color: #32b2fb;
+}
+
+#app .bet-area-content .bet-selected-item {
+  background: linear-gradient(to right, #66b0f7, #53ccf6);
+  box-shadow: 0px 2px 2px #59bef6;
+  border-color: transparent;
+}
+
+.btn-selected-item:not(:last-child) {
+  background-color: #32b2fb;
+}
+
+.check-box-list .checked .check-box {
+  background: linear-gradient(to right, #66b0f7, #53ccf6);
+  color: #f9fafe;
+  border-color: #66b0f7;
+  font-weight: 600;
+}
+
+.lottery-game-main-random .btn {
+  background-color: white;
+  border: solid 0.8px #4e90f9;
+  color: #4e90f9;
+  font-weight: bold;
+}
+
+.play-tab-list .vux-button-group {
+  border: solid 0.5px #32b2fb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.play-tab-list .vux-button-group>a:not(.vux-button-group-current) {
+  background-color: transparent;
+  color: #32b2fb;
+}
+
+.game-menu-main>.second_menu_list>.game-menu-item-selected
+{
+  color: #32b2fb;
+  border: solid 0.5px #32b2fb;
+}
+
+.playmode-list>li.active {
+  background-color: #32b2fb;
+  color: white;
+  border-color: #32b2fb;
+  font-weight: 500;
+}
+
+.weui-dialog__btn_primary {
+  color: #32b2fb;
+}
+
+.tab-box .vux-tab-bar-inner {
+  background-color: #32b2fb;
+}
+
+.rect-odds-list .rect-odds-item-selected {
+  border: solid 0.8px #32b2fb;
+  color: #32b2fb;
+}
+
+.rect-odds-list .rect-odds-item-selected>div:first-child {
+  background: linear-gradient(to right, #029feb, #00bef3);
+  color: white;
+}
+
+.rect-odds-list .rect-odds-item-selected>div:last-child{
+  color: #32b2fb
+}
+
+.tip-btns .noOperate {
+  color: #32b2fb;
+  border: 1px solid #32b2fb;
+}
+
+.tip-box .tip-btns .goToSetting {
+  background-color: #32b2fb;
+}
+
+.bankcard-manage-btn .add-bankcard-btn {
+  background: linear-gradient(to right, #029feb, #00bef3);
+}
+
+.my-bank-btn .add-bankcard-btn {
+  background-color: #32b2fb;
+}
+
+.bankcard-detail-btn .Unbind {
+  background-color: #32b2fb;
+}
+
+.add-bank-card-btn .confirm-btn {
+  background-color: #32b2fb;
+}
+
+.mod-login-pwd-btn .confirm-btn {
+  background-color: #32b2fb;
+}
+
+.mod-pwd-child p {
+  margin: 0;
+}
+
+.mod-withdraw-pwd-container .confirm-mod-btn {
+  background-color: #32b2fb;
+}
+
+.recharge-channel-list li.recharge-channel-item-active {
+  background-color: #32b2fb;
+  color: white;
+  border-color: #32b2fb;
+}
+
+.recharge-main .btn-copy {
+  border: solid 0.8px #32b2fb;
+  color: #32b2fb
+}
+
+.bound-header{
+  background-color: #32b2fb
+}
+
+button.btn-confirm{
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(to right, #029feb, #00bef3);
+  border: none;
+  width: 240px;
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  margin-left: -120px;
+}
+button.btn-confirm[disabled]{
+  background: #e2e4ef
+}
+
+/*新增*/
+
+.text-theme {
+  color: #32b2fb !important;
+}
+
+.border-theme {
+  border: 1px solid #32b2fb !important;
+}
+
+.team-tab-active {
+  background-color: #32b2fb !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+}
+
+.bg-theme {
+  background: linear-gradient(to right, #029feb, #00bef3) !important;
+}
+
+/* 新增  啦啦啦 */
+.home-top {
+  background: linear-gradient(to right, #029feb, #00bef3)!important;
+}
+
+.lottery-entry-box .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #32b2fb;
+}
+.activity-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #32b2fb;
+}
+
+.btn.btn-random1,
+.game-intro-text {
+  color: #4e90f9;
+}
+
+.icon-summary-area .point {
+  background-color: #32b2fb;
+}
+
+.user-top {
+  background-image: url('../../../static/images/home-blue/user-center-top-bg@3x.png');
+}
+
+.vux-popup-header-right, .dp-header .dp-item.dp-right {
+	color: #32b2fb;
+}
+
+.modify-btn {
+  background: linear-gradient(to right, #029feb, #00bef3)!important;
+}
+
+.tab-list > li.active {
+  background-color: #32b2fb;
+}
+
+.tab-list > li:nth-child(2) {
+  border-left: solid 0.5px #32b2fb;
+  border-right: solid 0.5px #32b2fb;
+}
+
+.tab-list {
+  border: solid 0.5px #32b2fb;
+  color: #32b2fb;
+}
+
+.tab-list > li:last-child svg {
+	fill: #32b2fb;
+}
+
+.contracts-wrapper .contracts-title .add-contracts-btn {
+  color: #32b2fb;
+}
+
+.account-switcher > div.switch-active {
+  background-color: #32b2fb;
+}
+
+.account-switcher {
+  border: solid 0.8px #32b2fb;
+  color: #32b2fb;
+}
+
+.tab-box > .active {
+  background-color: #32b2fb;
+}
+
+.promotion-top .tab-box {
+  border: solid 0.8px #32b2fb;
+  color: #32b2fb;
+}
+
+.copy-btn {
+  color: #32b2fb;
+  border: solid 0.8px #32b2fb;
+}
+
+.red-block {
+  box-shadow: 0 2px 6px #92e7ff;
+}
+
+.loginkefu {
+	color:#98a7bb!important;
+}
+
+.linkToGroup {
+  color: #98a7bb;
+}
+
+.linkToGroup a {
+  color: #98a7bb;
+}
+
+.agree span {
+  color: #32b2fb;
+}
+
+.register-box .checked.check-box {
+  background: linear-gradient(to right, #029feb, #00bef3)!important;
+}
+
+.try-play-btn {
+  color: #32b2fb;
+}
+
+.sub-tab-list .sub-tab-selected {
+  background-color: #32b2fb!important;
+}
+
+.btn-more {
+  border: solid 0.8px #32b2fb;
+  color: #32b2fb;
+}
+
+.game-list > li.active {
+  color: #32b2fb;
+}
+
+.game-type-list > li.active:after {
+  background-color: #32b2fb;
+}
+
+.money-list > li.active {
+  background-color: #32b2fb;
+}
+
+.check-item-selected {
+	background-color: #32b2fb!important;
+	border: 1px solid #32b2fb;
+}
+
+
